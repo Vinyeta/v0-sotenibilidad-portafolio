@@ -169,16 +169,28 @@ Michael Schneider, Andreas Stenger, Dominik Goeke (2014) The Electric Vehicle-Ro
         id: 2,
         title: "Mi Huella Ecológica Personal: Un Despertar",
         type: "conclusion",
-        content: `Según la encuesta, mi estilo de vida requiere 2.25 planetas Tierra para ser sostenible a nivel global. Lo más sorprendente fue la relevancia de la facilidad para acordar la reducción de la huella entre los habitantes de mi vivienda, en lugar de cómo el número de personas afecta el consumo.
-
-EL DIAGNÓSTICO INICIAL
-Mi estilo de vida actual requiere 2.25 planetas Tierra para ser sostenible. Mi huella está determinada principalmente por mi consumo personal de recursos.
-
-IMPACTO DE LOS CAMBIOS
-Al no tener coche y vivir en un bloque de pisos, el único cambio significativo que probé fue eliminar el consumo de carne. Esta modificación redujo mi huella a 2 planetas Tierra.
-
-FACTORES CLAVE
-Experimentando con las opciones de la encuesta, descubrí que el consumo de carne y el transporte son dos de los valores que más influyen en la sostenibilidad del estilo de vida. Estos factores tienen un impacto desproporcionado en la huella ecológica.`,
+        content: `
+        <div className="flex flex-col gap-6">
+          <p className="text-sm leading-relaxed">Según la encuesta, mi estilo de vida requiere 2.25 planetas Tierra para ser sostenible a nivel global. Lo más sorprendente fue la relevancia de la facilidad para acordar la reducción de la huella entre los habitantes de mi vivienda, en lugar de cómo el número de personas afecta el consumo.</p>
+          
+          <div className="grid grid-cols-3 gap-4">
+            <div className="border border-gray-600 rounded p-4">
+              <h4 className="font-semibold mb-2">El Diagnóstico Inicial</h4>
+              <p className="text-xs leading-relaxed">Según la encuesta, mi estilo de vida requiere 2.25 planetas Tierra para ser sostenible a nivel global. Lo más sorprendente fue la relevancia de la facilidad para acordar la reducción de la huella entre los habitantes de mi vivienda, en lugar de cómo el número de personas afecta el consumo.</p>
+            </div>
+            
+            <div className="border border-gray-600 rounded p-4">
+              <h4 className="font-semibold mb-2">Impacto de los Cambios</h4>
+              <p className="text-xs leading-relaxed">Al no tener coche y vivir en un bloque de pisos, el único cambio significativo que probé fue eliminar el consumo de carne. Dado que no consumo mucha carne habitualmente, esta modificación solo redujo mi huella a 2 planetas Tierra.</p>
+            </div>
+            
+            <div className="border border-gray-600 rounded p-4">
+              <h4 className="font-semibold mb-2">Factores Clave</h4>
+              <p className="text-xs leading-relaxed">Experimentando con las opciones de la encuesta, descubrí que el consumo de la dieta sea tan importante. Los cambios en la dieta pueden reducir de forma importante la huella de carbono personal (Ritchie, 2020)</p>
+            </div>
+          </div>
+        </div>
+        `,
       },
       {
         id: 3,
@@ -187,10 +199,10 @@ Experimentando con las opciones de la encuesta, descubrí que el consumo de carn
         content: `Para entender mejor el déficit ecológico, compararemos dos países con realidades muy distintas: el Reino Unido, con déficit, y Canadá, con superávit.
 
 REINO UNIDO: DÉFICIT PERSISTENTE
-En 2024, el Reino Unido registró 1.13 hectáreas globales (gha) de biocapacidad y 3.84 gha de huella ecológica. Su biocapacidad es baja por habitante, mientras que su huella es alta debido al consumo y la intensidad energética. Aunque la huella se ha estabilizado o decrecido ligeramente por mejoras de eficiencia, la biocapacidad no crece, manteniendo el déficit.
+En 2024, el Reino Unido registró 1.13 hectáreas globales (gha) de biocapacidad y 3.84 gha de huella ecológica. Su biocapacidad es baja por habitante, mientras que su huella es alta debido al consumo y la intensidad energética. Aunque la huella se ha estabilizado o decrecido ligeramente por mejoras de eficiencia, la biocapacidad no crece, manteniendo el déficit. (World Population Review, 2025)
 
 CANADÁ: SUPERÁVIT CON DESAFÍOS
-Canadá, en el mismo año, tuvo 14.2 gha de biocapacidad y 8.11 gha de huella ecológica. Su biocapacidad es elevada gracias a sus vastas extensiones naturales. Sin embargo, su huella per cápita también es alta (transporte, energía ligada a recursos). La biocapacidad muestra una tendencia decreciente por la explotación de recursos, y la huella fluctúa con el consumo y las emisiones del sector energético.`,
+Canadá, en el mismo año, tuvo 14.2 gha de biocapacidad y 8.11 gha de huella ecológica. Su biocapacidad es elevada gracias a sus vastas extensiones naturales. Sin embargo, su huella per cápita también es alta (transporte, energía ligada a recursos). La biocapacidad muestra una tendencia decreciente por la explotación de recursos, y la huella fluctúa con el consumo y las emisiones del sector energético. (World Population Review, 2025)`,
       },
       {
         id: 4,
@@ -272,7 +284,7 @@ CONCLUSIONES PRINCIPALES
         id: 9,
         title: "Priorizando Acciones para un Cine Sostenible",
         type: "strategies",
-        content: `Para Multicines Prince S.A., la estrategia más efectiva para reducir su huella ecológica debe centrarse en las áreas de mayor impacto, comenzando por la energía y la gestión de residuos.
+        content: `Para Multicines Prince S.A., la estrategia más efectiva para reducir su huella ecológica debe centrarse en las áreas de mayor impacto, comenzando por la energía y la gestión de residuos. Los cines están aplicando diversas medidas para avanzar hacia emisiones netas cero (Kay, 2023)
 
 LA BASE DE LA PIRÁMIDE: ENERGÍA
 La base de la pirámide, la energía, representa el área con mayor potencial de reducción de emisiones, seguida por la climatización y la gestión de residuos. La movilidad, aunque importante, tiene un impacto más difuso y depende en gran medida de los hábitos de los clientes.`,
@@ -283,11 +295,20 @@ La base de la pirámide, la energía, representa el área con mayor potencial de
         type: "strategies",
         content: `La reducción de la huella ecológica, tanto a nivel personal como empresarial, es un viaje continuo que requiere compromiso y acciones concretas. Cada pequeña mejora contribuye a un impacto global significativo.
 
-EVALUAR - Comprender la huella actual.
-PLANIFICAR - Establecer objetivos y estrategias.
-IMPLEMENTAR - Aplicar las medidas de mejora.
-COMUNICAR - Compartir logros y fomentar el cambio.
-MONITORIZAR - Seguir el progreso y ajustar.
+EVALUAR
+Comprender la huella actual.
+
+PLANIFICAR
+Establecer objetivos y estrategias.
+
+IMPLEMENTAR
+Aplicar las medidas de mejora.
+
+COMUNICAR
+Compartir logros y fomentar el cambio.
+
+MONITORIZAR
+Seguir el progreso y ajustar.
 
 Este ciclo de mejora continua es esencial para construir un futuro más sostenible para todos. La colaboración y la innovación son clave para superar los retos ambientales que enfrentamos.`,
       },
@@ -397,8 +418,7 @@ export default function ProjectsSlideGallery() {
         {/* Main Slide */}
         <div className="relative bg-card rounded-lg border border-border mb-8 overflow-hidden">
           <div className="min-h-screen md:min-h-[600px] p-8 md:p-12 flex flex-col justify-between">
-            <div>{renderSlideContent()}</div>
-
+            <div dangerouslySetInnerHTML={{ __html: slide.content }} />
             {/* Slide Counter */}
             <div className="mt-12 pt-8 border-t border-border text-sm text-muted-foreground">
               Diapositiva {currentSlide + 1} de {slides.length}

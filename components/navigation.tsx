@@ -1,11 +1,11 @@
-'use client';
+"use client"
 
-import Link from 'next/link';
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import Link from "next/link"
+import { useState } from "react"
+import { Menu, X } from "lucide-react"
 
 export default function Navigation() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
@@ -14,14 +14,11 @@ export default function Navigation() {
           <Link href="/" className="font-bold text-xl text-primary">
             Alejo Viñeta
           </Link>
-          
+
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-8">
             <Link href="/about" className="text-foreground hover:text-primary transition">
               Acerca de
-            </Link>
-            <Link href="/projects" className="text-foreground hover:text-primary transition">
-              Proyectos
             </Link>
             <a href="mailto:avinetam@gmail.com" className="text-foreground hover:text-primary transition">
               Contacto
@@ -29,11 +26,7 @@ export default function Navigation() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button
-            className="md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label="Toggle menu"
-          >
+          <button className="md:hidden" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
@@ -44,9 +37,6 @@ export default function Navigation() {
             <Link href="/about" className="block text-foreground hover:text-primary transition">
               Acerca de
             </Link>
-            <Link href="/projects" className="block text-foreground hover:text-primary transition">
-              Proyectos
-            </Link>
             <a href="mailto:avinetam@gmail.com" className="block text-foreground hover:text-primary transition">
               Contacto
             </a>
@@ -54,5 +44,5 @@ export default function Navigation() {
         )}
       </div>
     </nav>
-  );
+  )
 }
