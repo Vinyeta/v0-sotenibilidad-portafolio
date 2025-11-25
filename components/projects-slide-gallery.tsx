@@ -312,6 +312,45 @@ Seguir el progreso y ajustar.
 
 Este ciclo de mejora continua es esencial para construir un futuro más sostenible para todos. La colaboración y la innovación son clave para superar los retos ambientales que enfrentamos.`,
       },
+      {
+        id: 11,
+        title: "Cifrado César",
+        type: "analysis",
+        content: `Vrwhplehñgdg Sostenibilidad <br>
+Hfrlvwhod Ecosistema <br>
+
+Kxhñíd hfrírjfd Huella ecológica <br>
+
+Fdsdfígdg gh fdujd Capacidad de carga <br>
+
+Ghvdduurñír vrwwohplhñ Desarrollo sostenible <br>
+
+Fdoelrí fílodwlr Cambio climático <br>
+
+Ghvfuerplcdfirp Descarbonización <br>
+
+Ghvodwhulídcfrírp Desmaterialización <br>
+
+Remwlyhvr gh Ghvdduurñír Vrwhplehñe (RGV) Objetivos de Desarrollo Sostenible (ODS) <br>
+
+Phxwdlñgdg gh fdoeroo Neutralidad de carbono`,
+      },
+
+      {
+        id: 12,
+        title: "Referencias",
+        type: "references",
+        content: `Sobre alimentación y huella de carbonoRitchie, H. (2020). You want to reduce the carbon footprint of your food? Focus on what you eat, not whether your food is local. Our World in Data. 
+https://ourworldindata.org/food-choice-vs-eating-local
+<br>
+
+World Population Review. (2025). Ecological footprint by country 2025. WorldPopulationReview.com.
+https://worldpopulationreview.com/country-rankings/ecological-footprint-by-country
+<br>
+
+Kay, J. (2023). The tricky path to net zero: how cinemas are getting serious about sustainability. Screen Daily.
+https://www.screendaily.com/features/the-tricky-path-to-net-zero-how-cinemas-are-getting-serious-about-sustainability/5181167.article`,
+      },
     ],
   },
 ]
