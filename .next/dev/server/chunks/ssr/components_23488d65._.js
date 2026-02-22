@@ -373,196 +373,161 @@ Michael Schneider, Andreas Stenger, Dominik Goeke (2014) The Electric Vehicle-Ro
                 id: 1,
                 title: "Renovar para Sostener: El Desafío de Aproplast S.A.",
                 type: "cover",
-                content: `Alejo Viñeta Mussons
-IFP Sants | Curso: ASIX 2 | Profesor: Freddy Serrano Cifuentes
-Fecha de Entrega: 03/02/2026`
+                content: "",
+                image: "/aproplast/1_Renovar-para-Sostener-El-Desafio-de-Aproplast-SA.png"
             },
             {
                 id: 2,
                 title: "Resumen Ejecutivo",
                 type: "summary",
-                content: `Aproplast S.A., fabricante catalán de envases plásticos para alimentación y cosmética, enfrenta un desafío crítico: uso excesivo de plásticos de un solo uso y clientes que exigen compromisos ambientales en la cadena de suministro.
-
-SOLUCIÓN PROPUESTA:
-• Diseño: Sistema recargable + material rPET
-• Economía Circular: Modelo basado en las 7R
-• Producción Limpia: Certificación ISO 14001
-• Comunicación: Datos verificables + ISO 14006`
+                content: "",
+                image: "/aproplast/2_Resumen-Ejecutivo.png"
             },
             {
                 id: 3,
-                title: "Introducción",
+                title: "Introducción al Desafío",
                 type: "intro",
-                content: `Aproplast S.A. es una empresa catalana dedicada al diseño y fabricación de envases para el sector alimentario y cosmético.
-
-EL PROBLEMA ACTUAL:
-• Críticas por uso excesivo de plásticos de un solo uso
-• Grandes marcas exigen compromisos ambientales
-• Riesgo de perder contratos clave
-
-EL RETO: Rediseñar el envase estrella —una botella de champú de plástico grueso— cumpliendo principios de sostenibilidad sin comprometer calidad ni estética.`
+                content: "",
+                image: "/aproplast/3_Introduccion-al-Desafio.png"
             },
             {
                 id: 4,
-                title: "Parte 1: Diseño y Producción Sostenibles",
+                title: "Modificaciones de Diseño",
                 type: "activity",
-                content: `MODIFICACIONES DE DISEÑO:
-
-• Sistema recargable híbrido: Botella base reutilizable + refills (bolsas/sobres) - Reduce plástico por uso
-• Mono-material: Un solo polímero (rPET) para cuerpo y tapón - Facilita reciclaje mecánico
-• Lightweighting: Reducir peso 10-15% optimizando geometría - Menor coste y emisiones
-• Estética premium: Moldes y masterbatches para acabado similar - Mantiene percepción de marca
-
-DATO CLAVE: El 79% del plástico producido históricamente ha terminado en vertederos o el medio ambiente. Solo el 9% ha sido reciclado (Geyer et al., 2017).`
+                content: "",
+                image: "/aproplast/4_Modificaciones-de-Diseno.png"
             },
             {
                 id: 5,
-                title: "Ecodiseño en el Ciclo de Vida",
+                title: "Cambios en Producción",
                 type: "activity",
-                content: `APLICACIÓN DE ECODISEÑO POR FASE:
-
-• APROVISIONAMIENTO: Proveedores locales de rPET (reduce huella de carbono)
-• FABRICACIÓN: Circuito interno de granzas + sensores IoT + energía renovable
-• DISTRIBUCIÓN: Reducir peso = menor consumo en transporte
-• USO: Sistema de refills + botella base duradera
-• FIN DE VIDA: Mono-material + acuerdos de retorno con gestores locales
-
-Basado en principios ISO 14006 (Ecodiseño)`
+                content: "",
+                image: "/aproplast/5_Cambios-en-Produccion.png"
             },
             {
                 id: 6,
                 title: "Parte 2: Economía Circular - Las 5R",
                 type: "activity",
-                content: `MODELO DE NEGOCIO CIRCULAR:
-
-1. REPENSAR: De vender envases → a servicio integral de packaging sostenible con recolección y reciclaje
-
-2. REDISEÑAR: Botella para mínimo 10 reutilizaciones + refills que reducen plástico 70-80%
-
-3. REUTILIZAR: Puntos de recogida en tiendas → limpieza → inspección → reintroducción
-
-4. RECICLAR: rPET de envases no aptos → reprocesado interno → nuevos productos
-
-5. RECUPERAR: Circuito cerrado en planta - Objetivo: 95% recuperación de residuos plásticos
-
-DATO CLAVE: Solo el 14% de envases plásticos se recogen para reciclaje global, y solo el 2% se recicla en ciclo cerrado de alta calidad (Ellen MacArthur Foundation, 2017).`
+                content: "",
+                image: "/aproplast/6_Parte-2.png"
             },
             {
                 id: 7,
                 title: "Estrategias e Incentivos",
                 type: "strategies",
-                content: `INCENTIVOS ECONÓMICOS:
-• Sistema Depósito/Retorno (DRS): 0,50-1€ devuelto al retornar
-• Descuento refills: 20-30% menos que botella completa
-• Programa de puntos canjeables
-
-INCENTIVOS DE CONVENIENCIA:
-• Red de puntos en tiendas, supermercados, farmacias
-• Recogida a domicilio B2B
-
-INCENTIVOS DE COMUNICACIÓN:
-• Transparencia: "Has evitado X kg de plástico"
-• Sellos de economía circular visibles
-
-ACUERDOS B2B:
-• Compartir costes logísticos del sistema de retorno con marcas clientes`
+                content: "",
+                image: "/aproplast/7_Pregunta-2-Que-estrategias-o-incentivos-podria-aplicar-Aproplast-para-fomentar-la-devolucion-y-el-re.png"
             },
             {
                 id: 8,
                 title: "Parte 3: Procesos Sostenibles",
                 type: "activity",
-                content: `REDUCCIÓN DE RESIDUOS:
-• Circuito interno: Compactador + extrusora → granzas reutilizables (reducir 15-20% material virgen)
-• Optimización de moldes: Hot runners para eliminar residuos de colada
-• Control predictivo: Sensores en línea para detectar defectos en tiempo real
-
-REDUCCIÓN DE CONSUMO ENERGÉTICO:
-• Paneles solares en cubierta + contrato 100% renovable
-• Inyectoras con servomotores (ahorro 30-50% energía)
-• Sensores IoT + Dashboard con alertas
-
-DATO CLAVE: Las estrategias de reducción de material y eficiencia pueden lograr reducciones de emisiones hasta del 50% comparado con reciclaje tradicional (Allwood et al., 2011).`
+                content: "",
+                image: "/aproplast/8_Parte-3.png"
             },
             {
                 id: 9,
                 title: "Verificación ISO 14001",
                 type: "analysis",
-                content: `KPIs DE SEGUIMIENTO:
-
-• ENERGÍA: kWh/kg producido → -20% en 2 años
-• AGUA: m³/tonelada → -30% en 2 años
-• RESIDUOS: Tasa de recuperación → >95%
-• EMISIONES: kg CO₂e/unidad → -25% en 2 años
-• MATERIAL: % contenido reciclado → 50% en 3 años
-
-MECANISMOS DE COMPROBACIÓN:
-• Auditorías internas trimestrales
-• Auditorías externas anuales (AENOR, Bureau Veritas)
-• Revisión por dirección semestral
-• Sistema de no conformidades con análisis de causa raíz
-• Formación continua y benchmarking`
+                content: "",
+                image: "/aproplast/9_Pregunta-2-Como-comprobarias-la-eficacia-de-la-implantacion-del-sistema-ISO-14001-dentro-de-la-empre.png"
             },
             {
                 id: 10,
                 title: "Parte 4: Comunicación Responsable",
                 type: "activity",
-                content: `CERTIFICACIONES RECOMENDADAS:
-• ISO 14001: Gestión Ambiental - compromiso con mejora continua
-• ISO 14006: Ecodiseño - criterios ambientales en todo el ciclo de vida
-• EuCertPlast/RecyClass: Verificación del % real de rPET
-• ISO 14067/GHG Protocol: Huella de carbono verificada
-
-COMUNICACIÓN ANTI-GREENWASHING:
-✓ SÍ: LCA resumida con datos verificables, etiquetado con % exacto, código QR, afirmaciones cuantificables
-✗ NO: Claims vagos ("eco-friendly", "verde", "natural"), afirmaciones sin datos, promesas sin auditoría externa`
+                content: "",
+                image: "/aproplast/10_Parte-4.png"
             },
             {
                 id: 11,
-                title: "Beneficios del Nuevo Modelo",
+                title: "Conclusión del Caso",
                 type: "conclusion",
-                content: `BENEFICIOS ECONÓMICOS:
-• Reducción de costes: Hasta 30% ahorro energético, 15-20% en materia prima
-• Retención de clientes clave y nuevas oportunidades comerciales
-• Anticipación a normativas europeas + fidelización por sistema de recarga
-
-BENEFICIOS SOCIALES:
-• Formación continua del personal
-• Imagen positiva ante comunidad
-• Fortalecimiento del tejido económico catalán
-
-BENEFICIOS AMBIENTALES:
-• Reducción de CO₂ (menor transporte + consumo energético)
-• Sistema de reutilización cierra el ciclo del material
-• Alineación con Pacto Verde Europeo`
+                content: "",
+                image: "/aproplast/11_Conclusion-del-Caso.png"
             },
             {
                 id: 12,
-                title: "Conclusión",
-                type: "conclusion",
-                content: `PILARES DE LA ESTRATEGIA:
-
-1. Rediseño del envase: Sistema recargable + rPET sin comprometer estética
-2. Modelo circular (7R): Transforma relación con clientes y consumidores
-3. Producción limpia: ISO 14001 optimiza recursos y reduce costes
-4. Comunicación verificable: Certificaciones + LCA evitan greenwashing
-
-ESTRATEGIA DE IMPLEMENTACIÓN:
-Piloto en Barcelona → Escalado progresivo → Ajuste según mercado
-
-La inversión inicial se compensa con ahorro operativo, retención de clientes y diferenciación competitiva.`
-            },
-            {
-                id: 13,
                 title: "Referencias",
                 type: "references",
-                content: `Allwood, J. M., Ashby, M. F., Gutowski, T. G., & Worrell, E. (2011). Material efficiency: A white paper. Resources, Conservation and Recycling, 55(4), 362–381.
-https://doi.org/10.1016/j.resconrec.2010.11.002
-
-Ellen MacArthur Foundation. (2017). The new plastics economy: Rethinking the future of plastics & catalysing action. Ellen MacArthur Foundation.
-https://ellenmacarthurfoundation.org/the-new-plastics-economy-rethinking-the-future-of-plastics
-
-Geyer, R., Jambeck, J. R., & Law, K. L. (2017). Production, use, and fate of all plastics ever made. Science Advances, 3(7), e1700782.
-https://doi.org/10.1126/sciadv.1700782`
+                content: "",
+                image: "/aproplast/12_Referencias.png"
+            }
+        ]
+    },
+    {
+        id: "ecohotel",
+        name: "Reto Empresarial: Un Hotel Sostenible",
+        slides: [
+            {
+                id: 1,
+                title: "RETO EMPRESARIAL: Un Hotel Sostenible",
+                type: "cover",
+                content: "",
+                image: "/EcoHotel/1_RETO-EMPRESARIAL-Un-Hotel-Sostenible.png"
+            },
+            {
+                id: 2,
+                title: "Introducción y Objetivo",
+                type: "intro",
+                content: "",
+                image: "/EcoHotel/2_1-Introduccion-y-objetivo.png"
+            },
+            {
+                id: 3,
+                title: "Tarea 1: Análisis del Ciclo de Vida del Turismo de Masas",
+                type: "analysis",
+                content: "",
+                image: "/EcoHotel/3_2-Tarea-1-Analisis-del-ciclo-de-vida-del-turismo-de-masas-tradicional.png"
+            },
+            {
+                id: 4,
+                title: "Tarea 2: Evaluación de Producción Limpia",
+                type: "analysis",
+                content: "",
+                image: "/EcoHotel/4_3-Tarea-2-Evaluacion-de-produccion-limpia.png"
+            },
+            {
+                id: 5,
+                title: "Área 3: Ecodiseño del Hotel Sostenible - Hotel EcoMar",
+                type: "activity",
+                content: "",
+                image: "/EcoHotel/5_4-Area-3-Ecodiseno-del-hotel-sostenible-Hotel-EcoMar.png"
+            },
+            {
+                id: 6,
+                title: "Ecodiseño del Hotel EcoMar (Continuación)",
+                type: "activity",
+                content: "",
+                image: "/EcoHotel/6_4-Area-3-Ecodiseno-del-hotel-sostenible-Hotel-EcoMar-Continuacion.png"
+            },
+            {
+                id: 7,
+                title: "Tarea 4: Certificación Medioambiental",
+                type: "analysis",
+                content: "",
+                image: "/EcoHotel/7_5-Tarea-4-Certificacion-medioambiental.png"
+            },
+            {
+                id: 8,
+                title: "Presentación de Resultados",
+                type: "summary",
+                content: "",
+                image: "/EcoHotel/8_6-Presentacion-de-resultados.png"
+            },
+            {
+                id: 9,
+                title: "Cuestiones Finales: ¿Qué Hemos Aprendido?",
+                type: "conclusion",
+                content: "",
+                image: "/EcoHotel/9_7-Cuestiones-finales-Que-hemos-aprendido.png"
+            },
+            {
+                id: 10,
+                title: "Cuestiones Finales (Continuación)",
+                type: "conclusion",
+                content: "",
+                image: "/EcoHotel/10_7-Cuestiones-finales-Que-hemos-aprendido-Continuacion.png"
             }
         ]
     }
@@ -599,7 +564,7 @@ function ProjectsSlideGallery() {
                             children: "Proyectos"
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 474,
+                            lineNumber: 439,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -607,7 +572,7 @@ function ProjectsSlideGallery() {
                             children: "Selecciona un proyecto para explorar las diapositivas"
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 475,
+                            lineNumber: 440,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -618,32 +583,32 @@ function ProjectsSlideGallery() {
                                     children: project.name
                                 }, project.id, false, {
                                     fileName: "[project]/components/projects-slide-gallery.tsx",
-                                    lineNumber: 481,
+                                    lineNumber: 446,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 479,
+                            lineNumber: 444,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/projects-slide-gallery.tsx",
-                    lineNumber: 473,
+                    lineNumber: 438,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "relative bg-card rounded-lg border border-border mb-8 overflow-hidden",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "min-h-screen md:min-h-[800px] p-4 md:p-8 flex flex-col items-center justify-center",
+                            className: `p-4 md:p-8 flex flex-col items-center justify-center ${slide.image ? "" : "min-h-screen md:min-h-[800px]"}`,
                             children: slide.image ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: slide.image,
                                 alt: slide.title,
                                 className: "w-full h-auto object-contain"
                             }, void 0, false, {
                                 fileName: "[project]/components/projects-slide-gallery.tsx",
-                                lineNumber: 500,
+                                lineNumber: 465,
                                 columnNumber: 15
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                                 children: [
@@ -653,7 +618,7 @@ function ProjectsSlideGallery() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/components/projects-slide-gallery.tsx",
-                                        lineNumber: 507,
+                                        lineNumber: 472,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -666,52 +631,52 @@ function ProjectsSlideGallery() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/projects-slide-gallery.tsx",
-                                        lineNumber: 509,
+                                        lineNumber: 474,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true)
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 498,
+                            lineNumber: 463,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: prevSlide,
-                            className: "absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-primary/10 hover:bg-primary/20 text-primary p-3 rounded-full transition",
+                            className: "absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-background/80 hover:bg-background text-foreground shadow-lg backdrop-blur-sm p-3 rounded-full transition border border-border",
                             "aria-label": "Diapositiva anterior",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {
                                 size: 24
                             }, void 0, false, {
                                 fileName: "[project]/components/projects-slide-gallery.tsx",
-                                lineNumber: 522,
+                                lineNumber: 487,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 517,
+                            lineNumber: 482,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: nextSlide,
-                            className: "absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-primary/10 hover:bg-primary/20 text-primary p-3 rounded-full transition",
+                            className: "absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-background/80 hover:bg-background text-foreground shadow-lg backdrop-blur-sm p-3 rounded-full transition border border-border",
                             "aria-label": "Siguiente diapositiva",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
                                 size: 24
                             }, void 0, false, {
                                 fileName: "[project]/components/projects-slide-gallery.tsx",
-                                lineNumber: 529,
+                                lineNumber: 494,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 524,
+                            lineNumber: 489,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/projects-slide-gallery.tsx",
-                    lineNumber: 497,
+                    lineNumber: 462,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -723,12 +688,12 @@ function ProjectsSlideGallery() {
                             title: `Diapositiva ${index + 1}`
                         }, index, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 536,
+                            lineNumber: 501,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/projects-slide-gallery.tsx",
-                    lineNumber: 534,
+                    lineNumber: 499,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -738,7 +703,7 @@ function ProjectsSlideGallery() {
                             children: "Selecciona una diapositiva:"
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 550,
+                            lineNumber: 515,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -751,34 +716,34 @@ function ProjectsSlideGallery() {
                                         children: s.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/projects-slide-gallery.tsx",
-                                        lineNumber: 562,
+                                        lineNumber: 527,
                                         columnNumber: 17
                                     }, this)
                                 }, s.id, false, {
                                     fileName: "[project]/components/projects-slide-gallery.tsx",
-                                    lineNumber: 553,
+                                    lineNumber: 518,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 551,
+                            lineNumber: 516,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/projects-slide-gallery.tsx",
-                    lineNumber: 549,
+                    lineNumber: 514,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/projects-slide-gallery.tsx",
-            lineNumber: 472,
+            lineNumber: 437,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/projects-slide-gallery.tsx",
-        lineNumber: 471,
+        lineNumber: 436,
         columnNumber: 5
     }, this);
 }
