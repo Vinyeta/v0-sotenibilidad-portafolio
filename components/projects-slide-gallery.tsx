@@ -8,6 +8,7 @@ interface Slide {
   title: string
   content: string
   type: "cover" | "intro" | "activity" | "summary" | "references" | "analysis" | "strategies" | "conclusion"
+  image?: string
 }
 
 interface Project {
@@ -28,15 +29,24 @@ const projects: Project[] = [
         content: `Alejo Viñeta Mussons
 IFP Sants | Curso: ASIX 2 | Profesor: Freddy Serrano Cifuentes
 Fecha de Entrega: 17/10/2025`,
+        image: "/ecofast/1_Analisis-de-Sostenibilidad-Caso-EcoFast-Delivery.png",
       },
       {
         id: 2,
-        title: "Introducción",
-        type: "intro",
-        content: `Este análisis aborda de forma global el caso de "EcoFast Delivery", una empresa de reparto que se enfrenta a problemas esenciales vinculados a la gestión ambiental, la igualdad en el empleo y la eficacia de sus operaciones. El estudio busca detectar las deficiencias, proponer alternativas de mejora con evidencias contrastadas y evaluar el efecto acumulativo de las prácticas en un entorno urbano.`,
+        title: "Resumen",
+        type: "summary",
+        content: `La empresa EcoFast Delivery se enfrenta a desafíos de sostenibilidad que amenazan su continuidad a largo plazo. En este análisis se identificarán problemas en tres dimensiones: ambiental (flota antigua, alto consumo de combustible), social (desigualdad salarial, falta de diversidad de género, condiciones laborales deficientes) y económica (crecimiento no planificado, mala reputación). Se proponen mejoras fundamentadas que incluyen transición a vehículos más eficientes, optimización de rutas, implementación de políticas de igualdad y adopción de normas ISO certificables. La investigación se sustenta en fuentes académicas y normativas como la Agencia Europea de Medio Ambiente y la Ley 7/2021 de cambio climático. El análisis concluye que la transformación hacia un modelo logístico sostenible es esencial para la viabilidad de las empresas, la salud de las personas y el ecosistema donde opera.`,
+        image: "/ecofast/2_Resumen.png",
       },
       {
         id: 3,
+        title: "Introducción",
+        type: "intro",
+        content: `Este análisis aborda de forma global el caso de "EcoFast Delivery", una empresa de reparto que se enfrenta a problemas esenciales vinculados a la gestión ambiental, la igualdad en el empleo y la eficacia de sus operaciones. El estudio busca detectar las deficiencias, proponer alternativas de mejora con evidencias contrastadas y evaluar el efecto acumulativo de las prácticas en un entorno urbano.`,
+        image: "/ecofast/3_Introduccion.png",
+      },
+      {
+        id: 4,
         title: "Actividad 1: Detección de Problemas",
         type: "activity",
         content: `Se han identificado los siguientes problemas en EcoFast Delivery:
@@ -58,9 +68,10 @@ PROBLEMAS ECONÓMICOS:
 • Mala reputación
 • Altos costos operativos
 • Falta de inversión`,
+        image: "/ecofast/4_Actividad-1-Deteccion-de-Problemas.png",
       },
       {
-        id: 4,
+        id: 5,
         title: "Actividad 2: Clasificación y Propuestas de Mejora",
         type: "activity",
         content: `DIMENSIÓN AMBIENTAL:
@@ -77,10 +88,11 @@ DIMENSIÓN ECONÓMICA:
 • Invertir en tecnología verde
 • Buscar certificaciones de sostenibilidad (ISO)
 • Desarrollar estrategias de Responsabilidad Social Corporativa`,
+        image: "/ecofast/5_Actividad-2-Clasificacion-y-Propuestas-de-Mejora.png",
       },
       {
-        id: 5,
-        title: "Actividad 3: Investigación y Fundamentación (1/2)",
+        id: 6,
+        title: "Actividad 3: Investigación y Fundamentación",
         type: "activity",
         content: `A continuación, se desarrollan las propuestas de mejora organizadas según su dimensión.
 
@@ -88,25 +100,8 @@ DIMENSIÓN AMBIENTAL
 
 En la dimensión ambiental, la renovación de la flota es prioritaria. La combinación de vehículos híbridos para rutas interurbanas y bicicletas de carga eléctrica (cargo bikes) para el reparto en centros urbanos se alinea directamente con los requisitos de las Zonas de Bajas Emisiones (ZBE).
 
-La investigación de Gruber y Kihm muestra que la adopción de bicicletas de carga eléctrica por parte de mensajeros depende tanto de características sociodemográficas como de condiciones laborales y actitudes hacia la tecnología; esto refuerza la propuesta de EcoFast de combinar cargo bikes con cambios organizativos (p. ej., incentivos, formación y pruebas piloto) para aumentar la aceptación entre conductores y mensajeros y así garantizar la viabilidad operativa en ZBE y centros urbanos. (Gruber, J., & Kihm, A. 2016).
-
-Las ZBE, obligatorias en municipios de más de 50.000 habitantes según la ley 7/2021, restringen el acceso a vehículos contaminantes, haciendo de las cargo bikes una solución no solo limpia sino también estratégica para garantizar la eficiencia en el centro de las ciudades. Complementariamente, la optimización de rutas con software específico permite agrupar envíos por zonas y calcular trayectorias más eficientes, lo que reduce tiempo de conducción y consumo de combustible. Por último, instalar paneles solares para autoconsumo en los almacenes permitiría cargar las cargo bikes con energía limpia, reduciendo la huella de carbono y generando ahorros en la factura eléctrica a medio plazo.`,
-      },
-      {
-        id: 6,
-        title: "Actividad 3: Investigación y Fundamentación (2/2)",
-        type: "activity",
-        content: `DIMENSIÓN SOCIAL
-
-En el ámbito social, es urgente establecer políticas de igualdad salarial claras y auditadas que garanticen la misma retribución entre puestos iguales. Esta medida debe ir acompañada de un programa de formación en diversidad e inclusión para sensibilizar a la plantilla, fomentar un ambiente de respeto además de atraer y retener talento femenino en puestos de conducción. La creación de métodos transparentes para ascensos, basados en criterios objetivos y medibles como la productividad, antigüedad o evaluaciones fomenta la meritocracia y la motivación.
-
-El estudio Good Gig, Bad Gig: Autonomy and Algorithmic Control in the Global Gig Economy examina relaciones laborales en el sector de reparto y efectos de modelos organizativos en la calidad del empleo; sus hallazgos subrayan la necesidad de que EcoFast combine mejoras tecnológicas con políticas claras de empleo (igualdad salarial, formación, criterios de ascenso) para evitar precarización al introducir nuevas tecnologías y para asegurar la retención y motivación del personal. (Wood, A. J., Graham, M., Lehdonvirta, V., & Hjorth, I., 2018).
-
-DIMENSIÓN ECONÓMICA
-
-En la dimensión económica la inversión en tecnología verde (vehículos, software, energías renovables), aunque supone un coste alto inicial, conlleva a una importante reducción de costes operativos en el futuro y en una ventaja competitiva. Buscar certificaciones de sostenibilidad como la ISO 14001 (Gestión Ambiental) o la 45001 (Seguridad y Salud en el Trabajo) demuestra el compromiso de la empresa y mejora la credibilidad ante los clientes y administraciones públicas. Por último, desarrollar una estrategia de Responsabilidad Social Corporativa (RSC) integral permite comunicar estos avances de forma clara, fortalecer la lealtad de los clientes y asegurar su marca en un entorno cada vez más exigente.
-
-El artículo The Electric Vehicle-Routing Problem with Time Windows and Recharging Stations aporta evidencia metodológica sobre modelos de toma de decisiones en flotas y estrategias de enrutamiento que consideran incertidumbre y costos operativos; sus resultados apoyan la recomendación de EcoFast de invertir en software de optimización de rutas y en un análisis coste-beneficio para evaluar la sustitución gradual de vehículos por alternativas más pequeñas o electrificadas, optimizando la capacidad y reduciendo costes bajo escenarios de demanda variable. (Michael Schneider, Andreas Stenger, Dominik Goeke, 2014)`,
+Las ZBE, obligatorias en municipios de más de 50.000 habitantes según la ley 7/2021, restringen el acceso a vehículos contaminantes, haciendo de las cargo bikes una solución no solo limpia sino también estratégica para garantizar la eficiencia en el centro de las ciudades.`,
+        image: "/ecofast/6_Actividad-3-Investigacion-y-Fundamentacion.png",
       },
       {
         id: 7,
@@ -123,21 +118,17 @@ La implementación de políticas de igualdad laboral mejoraría la equidad inter
 ADAPTACIÓN NORMATIVA
 
 La adaptación a normativas como la Ley 7/2021 garantizaría su continuidad en entornos urbanos regulados.`,
+        image: "/ecofast/7_Actividad-4-Conclusiones.png",
       },
       {
         id: 8,
         title: "Actividad 5: Reflexión Crítica",
         type: "activity",
         content: `La proliferación de empresas con la misma huella operativa actual que EcoFast colapsaría la infraestructura y la salud ambiental de la ciudad. El aumento simultáneo de emisiones, ruido y tráfico sobrepasaría la capacidad del entorno urbano para regenerarse y absorber contaminantes. Esto demuestra que la única vía posible es la de implementar modelos de distribución sostenibles, diseñados para coexistir con las ciudades y sus habitantes.`,
+        image: "/ecofast/8_Actividad-5-Reflexion-Critica.png",
       },
       {
         id: 9,
-        title: "Resumen",
-        type: "summary",
-        content: `La empresa EcoFast Delivery se enfrenta a desafíos de sostenibilidad que amenazan su continuidad a largo plazo. En este análisis se identificarán problemas en tres dimensiones: ambiental (flota antigua, alto consumo de combustible), social (desigualdad salarial, falta de diversidad de género, condiciones laborales deficientes) y económica (crecimiento no planificado, mala reputación). Se proponen mejoras fundamentadas que incluyen transición a vehículos más eficientes, optimización de rutas, implementación de políticas de igualdad y adopción de normas ISO certificables. La investigación se sustenta en fuentes académicas y normativas como la Agencia Europea de Medio Ambiente y la Ley 7/2021 de cambio climático. El análisis concluye que la transformación hacia un modelo logístico sostenible es esencial para la viabilidad de las empresas, la salud de las personas y el ecosistema donde opera.`,
-      },
-      {
-        id: 10,
         title: "Referencias",
         type: "references",
         content: `Gruber, J., & Kihm, A. (2016). Reject or embrace? Messengers and electric cargo bikes. Transportation Research Procedia, 12, 900–910.
@@ -152,6 +143,7 @@ https://doi.org/10.1177/0950017018785616
 Wood A J, Graham M, Lehdonvirta V, Hjorth I. Good Gig, Bad Gig: Autonomy and Algorithmic Control in the Global Gig Economy. Work Employ Soc. 2019 Feb;33(1):56-75. doi: 10.1177/0950017018785616.
 
 Michael Schneider, Andreas Stenger, Dominik Goeke (2014) The Electric Vehicle-Routing Problem with Time Windows and Recharging Stations. Transportation Science 48(4):500-520. https://doi.org/10.1287/trsc.2013.0490`,
+        image: "/ecofast/9_Referencias.png",
       },
     ],
   },
@@ -164,192 +156,286 @@ Michael Schneider, Andreas Stenger, Dominik Goeke (2014) The Electric Vehicle-Ro
         title: "El Reto de la Sostenibilidad Empresarial",
         type: "cover",
         content: `En esta presentación, exploraremos la huella ecológica personal y corporativa, analizando el impacto de nuestros estilos de vida y las operaciones empresariales en el planeta. Nos adentraremos en el concepto de déficit ecológico, comparando países y proponiendo soluciones concretas para reducir la huella de carbono de una empresa.`,
+        image: "/retoEmpresarial/1_El-Reto-de-la-Sostenibilidad-Empresarial.png",
       },
       {
         id: 2,
         title: "Mi Huella Ecológica Personal: Un Despertar",
         type: "conclusion",
-        content: `
-        <div className="flex flex-col gap-6">
-          <p className="text-sm leading-relaxed">Según la encuesta, mi estilo de vida requiere 2.25 planetas Tierra para ser sostenible a nivel global. Lo más sorprendente fue la relevancia de la facilidad para acordar la reducción de la huella entre los habitantes de mi vivienda, en lugar de cómo el número de personas afecta el consumo.</p>
-          
-          <div className="grid grid-cols-3 gap-4">
-            <div className="border border-gray-600 rounded p-4">
-              <h4 className="font-semibold mb-2">El Diagnóstico Inicial</h4>
-              <p className="text-xs leading-relaxed">Según la encuesta, mi estilo de vida requiere 2.25 planetas Tierra para ser sostenible a nivel global. Lo más sorprendente fue la relevancia de la facilidad para acordar la reducción de la huella entre los habitantes de mi vivienda, en lugar de cómo el número de personas afecta el consumo.</p>
-            </div>
-            
-            <div className="border border-gray-600 rounded p-4">
-              <h4 className="font-semibold mb-2">Impacto de los Cambios</h4>
-              <p className="text-xs leading-relaxed">Al no tener coche y vivir en un bloque de pisos, el único cambio significativo que probé fue eliminar el consumo de carne. Dado que no consumo mucha carne habitualmente, esta modificación solo redujo mi huella a 2 planetas Tierra.</p>
-            </div>
-            
-            <div className="border border-gray-600 rounded p-4">
-              <h4 className="font-semibold mb-2">Factores Clave</h4>
-              <p className="text-xs leading-relaxed">Experimentando con las opciones de la encuesta, descubrí que el consumo de la dieta sea tan importante. Los cambios en la dieta pueden reducir de forma importante la huella de carbono personal (Ritchie, 2020)</p>
-            </div>
-          </div>
-        </div>
-        `,
+        content: `Según la encuesta, mi estilo de vida requiere 2.25 planetas Tierra para ser sostenible a nivel global.`,
+        image: "/retoEmpresarial/2_Mi-Huella-Ecologica-Personal-Un-Despertar.png",
       },
       {
         id: 3,
         title: "Déficit Ecológico: Reino Unido vs. Canadá",
         type: "analysis",
-        content: `Para entender mejor el déficit ecológico, compararemos dos países con realidades muy distintas: el Reino Unido, con déficit, y Canadá, con superávit.
-
-REINO UNIDO: DÉFICIT PERSISTENTE
-En 2024, el Reino Unido registró 1.13 hectáreas globales (gha) de biocapacidad y 3.84 gha de huella ecológica. Su biocapacidad es baja por habitante, mientras que su huella es alta debido al consumo y la intensidad energética. Aunque la huella se ha estabilizado o decrecido ligeramente por mejoras de eficiencia, la biocapacidad no crece, manteniendo el déficit. (World Population Review, 2025)
-
-CANADÁ: SUPERÁVIT CON DESAFÍOS
-Canadá, en el mismo año, tuvo 14.2 gha de biocapacidad y 8.11 gha de huella ecológica. Su biocapacidad es elevada gracias a sus vastas extensiones naturales. Sin embargo, su huella per cápita también es alta (transporte, energía ligada a recursos). La biocapacidad muestra una tendencia decreciente por la explotación de recursos, y la huella fluctúa con el consumo y las emisiones del sector energético. (World Population Review, 2025)`,
+        content: `Para entender mejor el déficit ecológico, compararemos dos países con realidades muy distintas.`,
+        image: "/retoEmpresarial/3_Deficit-Ecologico-Reino-Unido-vs-Canada.png",
       },
       {
         id: 4,
         title: "Estrategias para Reducir la Huella Ecológica de Multicines Prince S.A.",
         type: "strategies",
-        content: `Multicines Prince S.A. puede implementar una serie de mejoras en diversas áreas para reducir significativamente su huella ecológica. Estas medidas abarcan desde la energía hasta la movilidad, pasando por la gestión de residuos.
-
-ENERGÍA Y ELECTRICIDAD
-Instalación de paneles solares para autoconsumo, contratación de suministro 100% renovable y sustitución de iluminación por LED con sensores de presencia.
-
-CLIMATIZACIÓN Y EDIFICIO
-Optimización de la bomba de calor, regulación por zonas y horarios, y mejora del aislamiento térmico de techos, puertas y ventanas.
-
-RESIDUOS Y ECONOMÍA CIRCULAR
-Eliminación de plásticos de un solo uso, implantación de recogida selectiva rígida y promoción de entradas digitales para reducir el uso de papel.
-
-MOVILIDAD Y ACCESIBILIDAD
-Incentivar el uso del transporte público con descuentos, y habilitar aparcamientos para bicicletas y estaciones de sharing cercanas.`,
+        content: `Multicines Prince S.A. puede implementar una serie de mejoras en diversas áreas.`,
+        image: "/retoEmpresarial/4_Estrategias-para-Reducir-la-Huella-Ecologica-de-Multicines-Prince-SA.png",
       },
       {
         id: 5,
         title: "Cálculo de la Huella de Carbono de Multicines Prince S.A.",
         type: "analysis",
-        content: `Realizamos una estimación aproximada de la huella de carbono de Multicines Prince S.A. basándonos en los datos proporcionados y algunas suposiciones clave. Este cálculo nos dará una referencia rápida de su impacto ambiental.
-
-50.000 kWh - Consumo Eléctrico Anual
-La principal fuente de energía del cine.
-
-30 - Plantilla de Empleados
-Número de personas que trabajan en el cine.
-
-5.000 m2 - Superficie del Edificio
-Tamaño total de las instalaciones.
-
-0 tCO2e - Scope 1 (Estimado)
-Asumido por falta de datos de combustibles fósiles o fugas de refrigerante.`,
+        content: `Realizamos una estimación aproximada de la huella de carbono.`,
+        image: "/retoEmpresarial/5_Calculo-de-la-Huella-de-Carbono-de-Multicines-Prince-SA.png",
       },
       {
         id: 6,
         title: "Emisiones por Electricidad (Scope 2)",
         type: "analysis",
-        content: `Las emisiones de Scope 2 provienen directamente del consumo eléctrico. Hemos calculado dos escenarios basados en diferentes factores de emisión para la electricidad.
-
-Escenario A (Conservador): 0.233 kg CO2e/kWh → 11.65 tCO2e/año
-Escenario B (Optimista): 0.185 kg CO2e/kWh → 9.25 tCO2e/año
-
-El consumo de 50.000 kWh anuales se traduce en 11.65 tCO2e/año en el escenario más conservador y 9.25 tCO2e/año en el más optimista. Esto subraya la importancia de la fuente de energía eléctrica.`,
+        content: `Las emisiones de Scope 2 provienen directamente del consumo eléctrico.`,
+        image: "/retoEmpresarial/6_Emisiones-por-Electricidad-Scope-2.png",
       },
       {
         id: 7,
         title: "Estimación del Scope 3 y Huella Total",
         type: "analysis",
-        content: `El Scope 3, que incluye emisiones indirectas como residuos y desplazamientos, se estima como un 30% del Scope 2. Sumando todos los scopes, obtenemos la huella de carbono total estimada.
-
-Scope 3 (Escenario A): 3.50 tCO2e
-Scope 3 (Escenario B): 2.78 tCO2e
-
-EMISIONES INDIRECTAS ESTIMADAS
-
-La huella de carbono total estimada para Multicines Prince S.A. es de 15.15 tCO2e/año en el escenario A y 12.03 tCO2e/año en el escenario B. Estas cifras nos dan una visión completa del impacto.`,
+        content: `El Scope 3, que incluye emisiones indirectas como residuos y desplazamientos.`,
+        image: "/retoEmpresarial/7_Estimacion-del-Scope-3-y-Huella-Total.png",
       },
       {
         id: 8,
         title: "Huella de Carbono por Persona y Conclusiones Clave",
         type: "conclusion",
-        content: `Dividiendo la huella total por el número de empleados, obtenemos un indicador per cápita que facilita la comprensión del impacto individual.
-
-INDICADORES POR PERSONA (30 empleados)
-Escenario A: 0.505 tCO2e/persona
-Escenario B: 0.401 tCO2e/persona
-
-Estos valores muestran el impacto promedio de cada empleado en la huella de carbono total de la empresa.
-
-CONCLUSIONES PRINCIPALES
-• La mayor parte de la huella proviene del consumo eléctrico (Scope 2). Las medidas de reducción de consumo eléctrico son cruciales.
-• El Scope 3 es una aproximación, pero las acciones en economía circular y movilidad (Tarea 3) tendrán un impacto significativo, especialmente por el transporte de clientes.`,
+        content: `Dividiendo la huella total por el número de empleados.`,
+        image: "/retoEmpresarial/7_Huella-de-Carbono-por-Persona-y-Conclusiones-Clave.png",
       },
       {
         id: 9,
         title: "Priorizando Acciones para un Cine Sostenible",
         type: "strategies",
-        content: `Para Multicines Prince S.A., la estrategia más efectiva para reducir su huella ecológica debe centrarse en las áreas de mayor impacto, comenzando por la energía y la gestión de residuos. Los cines están aplicando diversas medidas para avanzar hacia emisiones netas cero (Kay, 2023)
-
-LA BASE DE LA PIRÁMIDE: ENERGÍA
-La base de la pirámide, la energía, representa el área con mayor potencial de reducción de emisiones, seguida por la climatización y la gestión de residuos. La movilidad, aunque importante, tiene un impacto más difuso y depende en gran medida de los hábitos de los clientes.`,
+        content: `Para Multicines Prince S.A., la estrategia más efectiva debe centrarse en las áreas de mayor impacto.`,
+        image: "/retoEmpresarial/8_Priorizando-Acciones-para-un-Cine-Sostenible.png",
       },
       {
         id: 10,
         title: "El Camino Hacia un Futuro Más Verde",
         type: "strategies",
-        content: `La reducción de la huella ecológica, tanto a nivel personal como empresarial, es un viaje continuo que requiere compromiso y acciones concretas. Cada pequeña mejora contribuye a un impacto global significativo.
-
-EVALUAR
-Comprender la huella actual.
-
-PLANIFICAR
-Establecer objetivos y estrategias.
-
-IMPLEMENTAR
-Aplicar las medidas de mejora.
-
-COMUNICAR
-Compartir logros y fomentar el cambio.
-
-MONITORIZAR
-Seguir el progreso y ajustar.
-
-Este ciclo de mejora continua es esencial para construir un futuro más sostenible para todos. La colaboración y la innovación son clave para superar los retos ambientales que enfrentamos.`,
+        content: `La reducción de la huella ecológica es un viaje continuo.`,
+        image: "/retoEmpresarial/9_El-Camino-Hacia-un-Futuro-Mas-Verde.png",
       },
       {
         id: 11,
         title: "Cifrado César",
         type: "analysis",
-        content: `Vrwhplehñgdg Sostenibilidad <br>
-Hfrlvwhod Ecosistema <br>
-
-Kxhñíd hfrírjfd Huella ecológica <br>
-
-Fdsdfígdg gh fdujd Capacidad de carga <br>
-
-Ghvdduurñír vrwwohplhñ Desarrollo sostenible <br>
-
-Fdoelrí fílodwlr Cambio climático <br>
-
-Ghvfuerplcdfirp Descarbonización <br>
-
-Ghvodwhulídcfrírp Desmaterialización <br>
-
-Remwlyhvr gh Ghvdduurñír Vrwhplehñe (RGV) Objetivos de Desarrollo Sostenible (ODS) <br>
-
-Phxwdlñgdg gh fdoeroo Neutralidad de carbono`,
+        content: `Cifrado de términos de sostenibilidad.`,
+        image: "/retoEmpresarial/10_Cifrado-Cesar.png",
       },
 
       {
         id: 12,
         title: "Referencias",
         type: "references",
-        content: `Sobre alimentación y huella de carbonoRitchie, H. (2020). You want to reduce the carbon footprint of your food? Focus on what you eat, not whether your food is local. Our World in Data. 
-https://ourworldindata.org/food-choice-vs-eating-local
-<br>
+        content: `Referencias del proyecto.`,
+        image: "/retoEmpresarial/11_Referencias.png",
+      },
+    ],
+  },
+  {
+    id: "aproplast",
+    name: "Renovar para Sostener: El Desafío de Aproplast S.A.",
+    slides: [
+      {
+        id: 1,
+        title: "Renovar para Sostener: El Desafío de Aproplast S.A.",
+        type: "cover",
+        content: `Alejo Viñeta Mussons
+IFP Sants | Curso: ASIX 2 | Profesor: Freddy Serrano Cifuentes
+Fecha de Entrega: 03/02/2026`,
+      },
+      {
+        id: 2,
+        title: "Resumen Ejecutivo",
+        type: "summary",
+        content: `Aproplast S.A., fabricante catalán de envases plásticos para alimentación y cosmética, enfrenta un desafío crítico: uso excesivo de plásticos de un solo uso y clientes que exigen compromisos ambientales en la cadena de suministro.
 
-World Population Review. (2025). Ecological footprint by country 2025. WorldPopulationReview.com.
-https://worldpopulationreview.com/country-rankings/ecological-footprint-by-country
-<br>
+SOLUCIÓN PROPUESTA:
+• Diseño: Sistema recargable + material rPET
+• Economía Circular: Modelo basado en las 7R
+• Producción Limpia: Certificación ISO 14001
+• Comunicación: Datos verificables + ISO 14006`,
+      },
+      {
+        id: 3,
+        title: "Introducción",
+        type: "intro",
+        content: `Aproplast S.A. es una empresa catalana dedicada al diseño y fabricación de envases para el sector alimentario y cosmético.
 
-Kay, J. (2023). The tricky path to net zero: how cinemas are getting serious about sustainability. Screen Daily.
-https://www.screendaily.com/features/the-tricky-path-to-net-zero-how-cinemas-are-getting-serious-about-sustainability/5181167.article`,
+EL PROBLEMA ACTUAL:
+• Críticas por uso excesivo de plásticos de un solo uso
+• Grandes marcas exigen compromisos ambientales
+• Riesgo de perder contratos clave
+
+EL RETO: Rediseñar el envase estrella —una botella de champú de plástico grueso— cumpliendo principios de sostenibilidad sin comprometer calidad ni estética.`,
+      },
+      {
+        id: 4,
+        title: "Parte 1: Diseño y Producción Sostenibles",
+        type: "activity",
+        content: `MODIFICACIONES DE DISEÑO:
+
+• Sistema recargable híbrido: Botella base reutilizable + refills (bolsas/sobres) - Reduce plástico por uso
+• Mono-material: Un solo polímero (rPET) para cuerpo y tapón - Facilita reciclaje mecánico
+• Lightweighting: Reducir peso 10-15% optimizando geometría - Menor coste y emisiones
+• Estética premium: Moldes y masterbatches para acabado similar - Mantiene percepción de marca
+
+DATO CLAVE: El 79% del plástico producido históricamente ha terminado en vertederos o el medio ambiente. Solo el 9% ha sido reciclado (Geyer et al., 2017).`,
+      },
+      {
+        id: 5,
+        title: "Ecodiseño en el Ciclo de Vida",
+        type: "activity",
+        content: `APLICACIÓN DE ECODISEÑO POR FASE:
+
+• APROVISIONAMIENTO: Proveedores locales de rPET (reduce huella de carbono)
+• FABRICACIÓN: Circuito interno de granzas + sensores IoT + energía renovable
+• DISTRIBUCIÓN: Reducir peso = menor consumo en transporte
+• USO: Sistema de refills + botella base duradera
+• FIN DE VIDA: Mono-material + acuerdos de retorno con gestores locales
+
+Basado en principios ISO 14006 (Ecodiseño)`,
+      },
+      {
+        id: 6,
+        title: "Parte 2: Economía Circular - Las 5R",
+        type: "activity",
+        content: `MODELO DE NEGOCIO CIRCULAR:
+
+1. REPENSAR: De vender envases → a servicio integral de packaging sostenible con recolección y reciclaje
+
+2. REDISEÑAR: Botella para mínimo 10 reutilizaciones + refills que reducen plástico 70-80%
+
+3. REUTILIZAR: Puntos de recogida en tiendas → limpieza → inspección → reintroducción
+
+4. RECICLAR: rPET de envases no aptos → reprocesado interno → nuevos productos
+
+5. RECUPERAR: Circuito cerrado en planta - Objetivo: 95% recuperación de residuos plásticos
+
+DATO CLAVE: Solo el 14% de envases plásticos se recogen para reciclaje global, y solo el 2% se recicla en ciclo cerrado de alta calidad (Ellen MacArthur Foundation, 2017).`,
+      },
+      {
+        id: 7,
+        title: "Estrategias e Incentivos",
+        type: "strategies",
+        content: `INCENTIVOS ECONÓMICOS:
+• Sistema Depósito/Retorno (DRS): 0,50-1€ devuelto al retornar
+• Descuento refills: 20-30% menos que botella completa
+• Programa de puntos canjeables
+
+INCENTIVOS DE CONVENIENCIA:
+• Red de puntos en tiendas, supermercados, farmacias
+• Recogida a domicilio B2B
+
+INCENTIVOS DE COMUNICACIÓN:
+• Transparencia: "Has evitado X kg de plástico"
+• Sellos de economía circular visibles
+
+ACUERDOS B2B:
+• Compartir costes logísticos del sistema de retorno con marcas clientes`,
+      },
+      {
+        id: 8,
+        title: "Parte 3: Procesos Sostenibles",
+        type: "activity",
+        content: `REDUCCIÓN DE RESIDUOS:
+• Circuito interno: Compactador + extrusora → granzas reutilizables (reducir 15-20% material virgen)
+• Optimización de moldes: Hot runners para eliminar residuos de colada
+• Control predictivo: Sensores en línea para detectar defectos en tiempo real
+
+REDUCCIÓN DE CONSUMO ENERGÉTICO:
+• Paneles solares en cubierta + contrato 100% renovable
+• Inyectoras con servomotores (ahorro 30-50% energía)
+• Sensores IoT + Dashboard con alertas
+
+DATO CLAVE: Las estrategias de reducción de material y eficiencia pueden lograr reducciones de emisiones hasta del 50% comparado con reciclaje tradicional (Allwood et al., 2011).`,
+      },
+      {
+        id: 9,
+        title: "Verificación ISO 14001",
+        type: "analysis",
+        content: `KPIs DE SEGUIMIENTO:
+
+• ENERGÍA: kWh/kg producido → -20% en 2 años
+• AGUA: m³/tonelada → -30% en 2 años
+• RESIDUOS: Tasa de recuperación → >95%
+• EMISIONES: kg CO₂e/unidad → -25% en 2 años
+• MATERIAL: % contenido reciclado → 50% en 3 años
+
+MECANISMOS DE COMPROBACIÓN:
+• Auditorías internas trimestrales
+• Auditorías externas anuales (AENOR, Bureau Veritas)
+• Revisión por dirección semestral
+• Sistema de no conformidades con análisis de causa raíz
+• Formación continua y benchmarking`,
+      },
+      {
+        id: 10,
+        title: "Parte 4: Comunicación Responsable",
+        type: "activity",
+        content: `CERTIFICACIONES RECOMENDADAS:
+• ISO 14001: Gestión Ambiental - compromiso con mejora continua
+• ISO 14006: Ecodiseño - criterios ambientales en todo el ciclo de vida
+• EuCertPlast/RecyClass: Verificación del % real de rPET
+• ISO 14067/GHG Protocol: Huella de carbono verificada
+
+COMUNICACIÓN ANTI-GREENWASHING:
+✓ SÍ: LCA resumida con datos verificables, etiquetado con % exacto, código QR, afirmaciones cuantificables
+✗ NO: Claims vagos ("eco-friendly", "verde", "natural"), afirmaciones sin datos, promesas sin auditoría externa`,
+      },
+      {
+        id: 11,
+        title: "Beneficios del Nuevo Modelo",
+        type: "conclusion",
+        content: `BENEFICIOS ECONÓMICOS:
+• Reducción de costes: Hasta 30% ahorro energético, 15-20% en materia prima
+• Retención de clientes clave y nuevas oportunidades comerciales
+• Anticipación a normativas europeas + fidelización por sistema de recarga
+
+BENEFICIOS SOCIALES:
+• Formación continua del personal
+• Imagen positiva ante comunidad
+• Fortalecimiento del tejido económico catalán
+
+BENEFICIOS AMBIENTALES:
+• Reducción de CO₂ (menor transporte + consumo energético)
+• Sistema de reutilización cierra el ciclo del material
+• Alineación con Pacto Verde Europeo`,
+      },
+      {
+        id: 12,
+        title: "Conclusión",
+        type: "conclusion",
+        content: `PILARES DE LA ESTRATEGIA:
+
+1. Rediseño del envase: Sistema recargable + rPET sin comprometer estética
+2. Modelo circular (7R): Transforma relación con clientes y consumidores
+3. Producción limpia: ISO 14001 optimiza recursos y reduce costes
+4. Comunicación verificable: Certificaciones + LCA evitan greenwashing
+
+ESTRATEGIA DE IMPLEMENTACIÓN:
+Piloto en Barcelona → Escalado progresivo → Ajuste según mercado
+
+La inversión inicial se compensa con ahorro operativo, retención de clientes y diferenciación competitiva.`,
+      },
+      {
+        id: 13,
+        title: "Referencias",
+        type: "references",
+        content: `Allwood, J. M., Ashby, M. F., Gutowski, T. G., & Worrell, E. (2011). Material efficiency: A white paper. Resources, Conservation and Recycling, 55(4), 362–381.
+https://doi.org/10.1016/j.resconrec.2010.11.002
+
+Ellen MacArthur Foundation. (2017). The new plastics economy: Rethinking the future of plastics & catalysing action. Ellen MacArthur Foundation.
+https://ellenmacarthurfoundation.org/the-new-plastics-economy-rethinking-the-future-of-plastics
+
+Geyer, R., Jambeck, J. R., & Law, K. L. (2017). Production, use, and fate of all plastics ever made. Science Advances, 3(7), e1700782.
+https://doi.org/10.1126/sciadv.1700782`,
       },
     ],
   },
@@ -381,53 +467,6 @@ export default function ProjectsSlideGallery() {
 
   const slide = slides[currentSlide]
 
-  const renderSlideContent = () => {
-    switch (slide.type) {
-      case "cover":
-        return (
-          <div className="space-y-6">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground">{slide.title}</h1>
-            <div className="space-y-4 mt-12 text-lg text-muted-foreground whitespace-pre-line">{slide.content}</div>
-          </div>
-        )
-      case "intro":
-      case "analysis":
-      case "strategies":
-      case "conclusion":
-        return (
-          <div className="space-y-6">
-            <h2 className="text-4xl font-bold text-foreground">{slide.title}</h2>
-            <p className="text-lg text-muted-foreground leading-relaxed">{slide.content}</p>
-          </div>
-        )
-      case "activity":
-        return (
-          <div className="space-y-6">
-            <h2 className="text-4xl font-bold text-foreground">{slide.title}</h2>
-            <div className="text-base text-muted-foreground whitespace-pre-line leading-relaxed">{slide.content}</div>
-          </div>
-        )
-      case "summary":
-        return (
-          <div className="space-y-6">
-            <h2 className="text-4xl font-bold text-foreground">{slide.title}</h2>
-            <p className="text-base text-muted-foreground leading-relaxed">{slide.content}</p>
-          </div>
-        )
-      case "references":
-        return (
-          <div className="space-y-6">
-            <h2 className="text-4xl font-bold text-foreground">{slide.title}</h2>
-            <div className="text-sm text-muted-foreground whitespace-pre-line leading-relaxed font-mono">
-              {slide.content}
-            </div>
-          </div>
-        )
-      default:
-        return null
-    }
-  }
-
   return (
     <section className="py-20 lg:py-32 px-4 sm:px-6 lg:px-8 bg-background">
       <div className="max-w-4xl mx-auto">
@@ -456,12 +495,22 @@ export default function ProjectsSlideGallery() {
 
         {/* Main Slide */}
         <div className="relative bg-card rounded-lg border border-border mb-8 overflow-hidden">
-          <div className="min-h-screen md:min-h-[600px] p-8 md:p-12 flex flex-col justify-between">
-            <div dangerouslySetInnerHTML={{ __html: slide.content }} />
-            {/* Slide Counter */}
-            <div className="mt-12 pt-8 border-t border-border text-sm text-muted-foreground">
-              Diapositiva {currentSlide + 1} de {slides.length}
-            </div>
+          <div className="min-h-screen md:min-h-[800px] p-4 md:p-8 flex flex-col items-center justify-center">
+            {slide.image ? (
+              <img 
+                src={slide.image} 
+                alt={slide.title}
+                className="w-full h-auto object-contain"
+              />
+            ) : (
+              <>
+                <div dangerouslySetInnerHTML={{ __html: slide.content }} />
+                {/* Slide Counter */}
+                <div className="mt-12 pt-8 border-t border-border text-sm text-muted-foreground">
+                  Diapositiva {currentSlide + 1} de {slides.length}
+                </div>
+              </>
+            )}
           </div>
 
           {/* Navigation Buttons */}

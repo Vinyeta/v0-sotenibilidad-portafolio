@@ -10,23 +10,6 @@ export const metadata: Metadata = {
   title: 'Alejo Viñeta - Portafolio de Sostenibilidad',
   description: 'Portafolio de proyectos de sostenibilidad e innovación ambiental. Desarrollador web especializado en soluciones tecnológicas sostenibles.',
   generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
 }
 
 export const viewport = {
