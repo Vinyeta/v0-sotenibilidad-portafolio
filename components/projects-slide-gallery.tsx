@@ -402,6 +402,13 @@ Michael Schneider, Andreas Stenger, Dominik Goeke (2014) The Electric Vehicle-Ro
         content: "",
         image: "/EcoHotel/10_7-Cuestiones-finales-Que-hemos-aprendido-Continuacion.png",
       },
+      {
+        id: 12,
+        title: "Referencias",
+        type: "references",
+        content: `Referencias del proyecto.`,
+        image: "/EcoHotel/11_Referencias.png",
+      },
     ],
   },
 ]
