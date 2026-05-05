@@ -49,13 +49,22 @@ function Navigation() {
                                     lineNumber: 20,
                                     columnNumber: 13
                                 }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/etica-ia",
+                                    className: "text-foreground hover:text-primary transition",
+                                    children: "Ética en IA"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/navigation.tsx",
+                                    lineNumber: 23,
+                                    columnNumber: 13
+                                }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: "mailto:avinetam@gmail.com",
                                     className: "text-foreground hover:text-primary transition",
                                     children: "Contacto"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navigation.tsx",
-                                    lineNumber: 23,
+                                    lineNumber: 26,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -72,18 +81,18 @@ function Navigation() {
                                 size: 24
                             }, void 0, false, {
                                 fileName: "[project]/components/navigation.tsx",
-                                lineNumber: 30,
+                                lineNumber: 33,
                                 columnNumber: 23
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                 size: 24
                             }, void 0, false, {
                                 fileName: "[project]/components/navigation.tsx",
-                                lineNumber: 30,
+                                lineNumber: 33,
                                 columnNumber: 41
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/navigation.tsx",
-                            lineNumber: 29,
+                            lineNumber: 32,
                             columnNumber: 11
                         }, this)
                     ]
@@ -101,7 +110,16 @@ function Navigation() {
                             children: "Acerca de"
                         }, void 0, false, {
                             fileName: "[project]/components/navigation.tsx",
-                            lineNumber: 37,
+                            lineNumber: 40,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            href: "/etica-ia",
+                            className: "block text-foreground hover:text-primary transition",
+                            children: "Ética en IA"
+                        }, void 0, false, {
+                            fileName: "[project]/components/navigation.tsx",
+                            lineNumber: 43,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -110,13 +128,13 @@ function Navigation() {
                             children: "Contacto"
                         }, void 0, false, {
                             fileName: "[project]/components/navigation.tsx",
-                            lineNumber: 40,
+                            lineNumber: 46,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/navigation.tsx",
-                    lineNumber: 36,
+                    lineNumber: 39,
                     columnNumber: 11
                 }, this)
             ]
@@ -538,6 +556,250 @@ Michael Schneider, Andreas Stenger, Dominik Goeke (2014) The Electric Vehicle-Ro
                 type: "conclusion",
                 content: "",
                 image: "/EcoHotel/10_7-Cuestiones-finales-Que-hemos-aprendido-Continuacion.png"
+            },
+            {
+                id: 12,
+                title: "Referencias",
+                type: "references",
+                content: `Referencias del proyecto.`,
+                image: "/EcoHotel/11_Referencias.png"
+            }
+        ]
+    },
+    {
+        id: "ecobalance",
+        name: "EcoBalance AI: Optimización Sostenible de CPDs",
+        slides: [
+            {
+                id: 1,
+                title: "EcoBalance AI",
+                type: "cover",
+                content: "",
+                image: "/ecobalance/1_EcoBalance-AI-Portada.png"
+            },
+            {
+                id: 2,
+                title: "Índice",
+                type: "intro",
+                content: "",
+                image: "/ecobalance/2_Indice.png"
+            },
+            {
+                id: 3,
+                title: "I. Definición del proyecto",
+                type: "intro",
+                content: "",
+                image: "/ecobalance/3_I-Definicion-del-proyecto.png"
+            },
+            {
+                id: 4,
+                title: "Cliente: DataNova S.L.",
+                type: "intro",
+                content: "",
+                image: "/ecobalance/4_Cliente-DataNova.png"
+            },
+            {
+                id: 5,
+                title: "Antecedentes — el punto de dolor",
+                type: "analysis",
+                content: "",
+                image: "/ecobalance/5_Antecedentes-Punto-de-dolor.png"
+            },
+            {
+                id: 6,
+                title: "Oportunidad de mercado",
+                type: "analysis",
+                content: "",
+                image: "/ecobalance/6_Oportunidad-de-mercado.png"
+            },
+            {
+                id: 7,
+                title: "II. Estudios relacionados",
+                type: "intro",
+                content: "",
+                image: "/ecobalance/7_II-Estudios-relacionados.png"
+            },
+            {
+                id: 8,
+                title: "Estudio 1 — Masanet et al. (2020)",
+                type: "references",
+                content: "",
+                image: "/ecobalance/8_Estudio-1-Masanet-2020.png"
+            },
+            {
+                id: 9,
+                title: "Estudio 2 — Beloglazov & Buyya (2012)",
+                type: "references",
+                content: "",
+                image: "/ecobalance/9_Estudio-2-Beloglazov-Buyya-2012.png"
+            },
+            {
+                id: 10,
+                title: "Estudio 3 — Strubell et al. (2019)",
+                type: "references",
+                content: "",
+                image: "/ecobalance/10_Estudio-3-Strubell-2019.png"
+            },
+            {
+                id: 11,
+                title: "III. Solución propuesta",
+                type: "intro",
+                content: "",
+                image: "/ecobalance/11_III-Solucion-propuesta.png"
+            },
+            {
+                id: 12,
+                title: "¿Qué es EcoBalance AI?",
+                type: "summary",
+                content: "",
+                image: "/ecobalance/12_Que-es-EcoBalance-AI.png"
+            },
+            {
+                id: 13,
+                title: "IV. Arquitectura técnica",
+                type: "intro",
+                content: "",
+                image: "/ecobalance/13_IV-Arquitectura-tecnica.png"
+            },
+            {
+                id: 14,
+                title: "Diagrama de flujo del modelo",
+                type: "activity",
+                content: "",
+                image: "/ecobalance/14_Diagrama-de-flujo-del-modelo.png"
+            },
+            {
+                id: 15,
+                title: "Tres puntos de control ético",
+                type: "activity",
+                content: "",
+                image: "/ecobalance/15_Tres-puntos-de-control-etico.png"
+            },
+            {
+                id: 16,
+                title: "V. Sostenibilidad y ética",
+                type: "intro",
+                content: "",
+                image: "/ecobalance/16_V-Sostenibilidad-y-etica.png"
+            },
+            {
+                id: 17,
+                title: "Impacto ambiental",
+                type: "analysis",
+                content: "",
+                image: "/ecobalance/17_Impacto-ambiental.png"
+            },
+            {
+                id: 18,
+                title: "Explicabilidad",
+                type: "activity",
+                content: "",
+                image: "/ecobalance/18_Explicabilidad.png"
+            },
+            {
+                id: 19,
+                title: "Privacidad y cumplimiento normativo",
+                type: "activity",
+                content: "",
+                image: "/ecobalance/19_Privacidad-y-cumplimiento.png"
+            },
+            {
+                id: 20,
+                title: "VI. Gestión y planificación",
+                type: "intro",
+                content: "",
+                image: "/ecobalance/20_VI-Gestion-y-planificacion.png"
+            },
+            {
+                id: 21,
+                title: "Diagrama de Gantt — 5 fases",
+                type: "strategies",
+                content: "",
+                image: "/ecobalance/21_Diagrama-de-Gantt.png"
+            },
+            {
+                id: 22,
+                title: "VII. Medición — KPIs",
+                type: "intro",
+                content: "",
+                image: "/ecobalance/22_VII-Medicion-KPIs.png"
+            },
+            {
+                id: 23,
+                title: "KPIs por dimensión",
+                type: "analysis",
+                content: "",
+                image: "/ecobalance/23_KPIs-por-dimension.png"
+            },
+            {
+                id: 24,
+                title: "VIII. Preparación para la defensa",
+                type: "intro",
+                content: "",
+                image: "/ecobalance/24_VIII-Preparacion-defensa.png"
+            },
+            {
+                id: 25,
+                title: "Pregunta 1 — La decisión crítica",
+                type: "activity",
+                content: "",
+                image: "/ecobalance/25_Pregunta-1-Decision-critica.png"
+            },
+            {
+                id: 26,
+                title: "Pregunta 2 — El reto del sesgo",
+                type: "activity",
+                content: "",
+                image: "/ecobalance/26_Pregunta-2-Reto-del-sesgo.png"
+            },
+            {
+                id: 27,
+                title: "Pregunta 3 — Valor de la transparencia",
+                type: "activity",
+                content: "",
+                image: "/ecobalance/27_Pregunta-3-Valor-transparencia.png"
+            },
+            {
+                id: 28,
+                title: "Pregunta 4 — La huella invisible",
+                type: "activity",
+                content: "",
+                image: "/ecobalance/28_Pregunta-4-Huella-invisible.png"
+            },
+            {
+                id: 29,
+                title: "IX. Conclusión",
+                type: "intro",
+                content: "",
+                image: "/ecobalance/29_IX-Conclusion.png"
+            },
+            {
+                id: 30,
+                title: "Valor integrado",
+                type: "conclusion",
+                content: "",
+                image: "/ecobalance/30_Valor-integrado.png"
+            },
+            {
+                id: 31,
+                title: "Reflexión final",
+                type: "conclusion",
+                content: "",
+                image: "/ecobalance/31_Reflexion-final.png"
+            },
+            {
+                id: 32,
+                title: "X. Bibliografía (APA)",
+                type: "references",
+                content: "",
+                image: "/ecobalance/32_X-Bibliografia.png"
+            },
+            {
+                id: 33,
+                title: "Gracias",
+                type: "conclusion",
+                content: "",
+                image: "/ecobalance/33_Cierre-Gracias.png"
             }
         ]
     }
@@ -575,7 +837,7 @@ function ProjectsSlideGallery() {
                             children: "Proyectos"
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 439,
+                            lineNumber: 683,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -583,7 +845,7 @@ function ProjectsSlideGallery() {
                             children: "Selecciona un proyecto para explorar las diapositivas"
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 440,
+                            lineNumber: 684,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -594,18 +856,18 @@ function ProjectsSlideGallery() {
                                     children: project.name
                                 }, project.id, false, {
                                     fileName: "[project]/components/projects-slide-gallery.tsx",
-                                    lineNumber: 446,
+                                    lineNumber: 690,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 444,
+                            lineNumber: 688,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/projects-slide-gallery.tsx",
-                    lineNumber: 438,
+                    lineNumber: 682,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -619,7 +881,7 @@ function ProjectsSlideGallery() {
                                 className: "w-full h-auto object-contain"
                             }, void 0, false, {
                                 fileName: "[project]/components/projects-slide-gallery.tsx",
-                                lineNumber: 465,
+                                lineNumber: 709,
                                 columnNumber: 15
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                 children: [
@@ -629,7 +891,7 @@ function ProjectsSlideGallery() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/components/projects-slide-gallery.tsx",
-                                        lineNumber: 472,
+                                        lineNumber: 716,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -642,14 +904,14 @@ function ProjectsSlideGallery() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/projects-slide-gallery.tsx",
-                                        lineNumber: 474,
+                                        lineNumber: 718,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true)
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 463,
+                            lineNumber: 707,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -660,12 +922,12 @@ function ProjectsSlideGallery() {
                                 size: 24
                             }, void 0, false, {
                                 fileName: "[project]/components/projects-slide-gallery.tsx",
-                                lineNumber: 487,
+                                lineNumber: 731,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 482,
+                            lineNumber: 726,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -676,18 +938,18 @@ function ProjectsSlideGallery() {
                                 size: 24
                             }, void 0, false, {
                                 fileName: "[project]/components/projects-slide-gallery.tsx",
-                                lineNumber: 494,
+                                lineNumber: 738,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 489,
+                            lineNumber: 733,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/projects-slide-gallery.tsx",
-                    lineNumber: 462,
+                    lineNumber: 706,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -699,12 +961,12 @@ function ProjectsSlideGallery() {
                             title: `Diapositiva ${index + 1}`
                         }, index, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 501,
+                            lineNumber: 745,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/projects-slide-gallery.tsx",
-                    lineNumber: 499,
+                    lineNumber: 743,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -714,7 +976,7 @@ function ProjectsSlideGallery() {
                             children: "Selecciona una diapositiva:"
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 515,
+                            lineNumber: 759,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -727,34 +989,34 @@ function ProjectsSlideGallery() {
                                         children: s.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/projects-slide-gallery.tsx",
-                                        lineNumber: 527,
+                                        lineNumber: 771,
                                         columnNumber: 17
                                     }, this)
                                 }, s.id, false, {
                                     fileName: "[project]/components/projects-slide-gallery.tsx",
-                                    lineNumber: 518,
+                                    lineNumber: 762,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/projects-slide-gallery.tsx",
-                            lineNumber: 516,
+                            lineNumber: 760,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/projects-slide-gallery.tsx",
-                    lineNumber: 514,
+                    lineNumber: 758,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/projects-slide-gallery.tsx",
-            lineNumber: 437,
+            lineNumber: 681,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/projects-slide-gallery.tsx",
-        lineNumber: 436,
+        lineNumber: 680,
         columnNumber: 5
     }, this);
 }

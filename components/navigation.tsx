@@ -20,6 +20,9 @@ export default function Navigation() {
             <Link href="/about" className="text-foreground hover:text-primary transition">
               Acerca de
             </Link>
+            <Link href="/etica-ia" className="text-foreground hover:text-primary transition">
+              Ética en IA
+            </Link>
             <a href="mailto:avinetam@gmail.com" className="text-foreground hover:text-primary transition">
               Contacto
             </a>
@@ -36,6 +39,9 @@ export default function Navigation() {
           <div className="md:hidden pb-4 space-y-2">
             <Link href="/about" className="block text-foreground hover:text-primary transition">
               Acerca de
+            </Link>
+            <Link href="/etica-ia" className="block text-foreground hover:text-primary transition">
+              Ética en IA
             </Link>
             <a href="mailto:avinetam@gmail.com" className="block text-foreground hover:text-primary transition">
               Contacto

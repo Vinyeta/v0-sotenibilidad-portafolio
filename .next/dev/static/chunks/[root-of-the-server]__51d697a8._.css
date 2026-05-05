@@ -400,10 +400,6 @@
     padding-block: 0;
   }
 
-  ::-webkit-calendar-picker-indicator {
-    line-height: 1;
-  }
-
   :-moz-ui-invalid {
     box-shadow: none;
   }
@@ -448,6 +444,10 @@
 @layer components;
 
 @layer utilities {
+  .invisible {
+    visibility: hidden;
+  }
+
   .absolute {
     position: absolute;
   }
@@ -458,10 +458,6 @@
 
   .sticky {
     position: sticky;
-  }
-
-  .start {
-    inset-inline-start: var(--spacing);
   }
 
   .top-0 {
@@ -733,6 +729,11 @@
     border-bottom-width: 1px;
   }
 
+  .border-l-4 {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 4px;
+  }
+
   .border-accent\/20 {
     border-color: var(--accent);
   }
@@ -941,6 +942,10 @@
     padding-bottom: calc(var(--spacing) * 6);
   }
 
+  .pl-4 {
+    padding-left: calc(var(--spacing) * 4);
+  }
+
   .text-center {
     text-align: center;
   }
@@ -1058,6 +1063,10 @@
     }
   }
 
+  .italic {
+    font-style: italic;
+  }
+
   .antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -1085,7 +1094,7 @@
   }
 
   .transition {
-    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
@@ -1164,18 +1173,6 @@
     @supports (color: color-mix(in lab, red, red)) {
       .hover\:bg-primary-foreground\/90:hover {
         background-color: color-mix(in oklab, var(--primary-foreground) 90%, transparent);
-      }
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:bg-primary\/20:hover {
-      background-color: var(--primary);
-    }
-
-    @supports (color: color-mix(in lab, red, red)) {
-      .hover\:bg-primary\/20:hover {
-        background-color: color-mix(in oklab, var(--primary) 20%, transparent);
       }
     }
   }

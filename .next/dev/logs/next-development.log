@@ -1,30 +1,257 @@
-[00:00:00.789] Server  LOG      ✓ Ready in 614ms
-[00:00:31.615] Server  LOG      ○ Compiling /_not-found/page ...
-[00:00:33.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:34.055] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:34.055] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
-[00:00:34.055] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771787223603}
-[00:00:53.714] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:53.906] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:53.906] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
-[00:00:53.906] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771787243454} /_vercel/insights/view
-[00:01:03.271] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:03.511] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:03.512] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:03.512] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771787253060} /_vercel/insights/view
-[00:02:48.494] Server  LOG      ✓ Compiled in 105.1s
-[00:02:48.571] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:48.705] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:48.705] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:02:48.705] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771787358253} /_vercel/insights/view
-[00:03:10.331] Server  LOG      ✓ Compiled in 21.7s
-[00:03:10.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:10.461] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:03:10.461] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:03:10.461] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771787380010} /_vercel/insights/view
-[00:03:34.246] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:40.019] Server  LOG      ✓ Compiled in 29.6s
-[00:03:40.161] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:40.315] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:03:40.315] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:03:40.315] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771787409864} /_vercel/insights/view
+[00:00:02.177] Server  LOG      ✓ Ready in 1572ms
+[00:00:06.662] Server  LOG      ○ Compiling / ...
+[00:00:10.322] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.779] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="es"
+-                         data-darkreader-mode="dynamic"
+-                         data-darkreader-scheme="dark"
+-                         data-darkreader-proxy-injected="true"
+                        >
+                          ...
+                            <Home>
+                              <main className="min-h-screen">
+                                ...
+                                  <button className="md:hidden" onClick={function onClick} aria-label="Toggle menu">
+                                    <Menu size={24}>
+                                      <svg
+                                        ref={null}
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width={24}
+                                        height={24}
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth={2}
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="lucide lucide-menu"
+-                                       data-darkreader-inline-stroke=""
+-                                       style={{--darkreader-inline-stroke:"currentColor"}}
+                                      >
+                                <section>
+                                ...
+                                  <div className="relative b...">
+                                    <div>
+                                    <button onClick={function prevSlide} className="absolute l..." ...>
+                                      <ChevronLeft size={24}>
+                                        <svg
+                                          ref={null}
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width={24}
+                                          height={24}
+                                          viewBox="0 0 24 24"
+                                          fill="none"
+                                          stroke="currentColor"
+                                          strokeWidth={2}
+                                          strokeLinecap="round"
+                                          strokeLinejoin="round"
+                                          className="lucide lucide-chevron-left"
+-                                         data-darkreader-inline-stroke=""
+-                                         style={{--darkreader-inline-stroke:"currentColor"}}
+                                        >
+                                    <button onClick={function nextSlide} className="absolute r..." ...>
+                                      <ChevronRight size={24}>
+                                        <svg
+                                          ref={null}
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width={24}
+                                          height={24}
+                                          viewBox="0 0 24 24"
+                                          fill="none"
+                                          stroke="currentColor"
+                                          strokeWidth={2}
+                                          strokeLinecap="round"
+                                          strokeLinejoin="round"
+                                          className="lucide lucide-chevron-right"
+-                                         data-darkreader-inline-stroke=""
+-                                         style={{--darkreader-inline-stroke:"currentColor"}}
+                                        >
+                                <CTA>
+                                  <section id="contacto" className="py-20 lg:p...">
+                                    <div className="max-w-4xl ...">
+                                      <h2>
+                                      <p>
+                                      <div className="grid md:gr...">
+                                        <a href="mailto:avi..." className="group bg-a...">
+                                          <Mail>
+                                            <>
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width={20}
+                                                height={20}
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth={2}
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className="lucide lucide-mail"
+-                                               data-darkreader-inline-stroke=""
+-                                               style={{--darkreader-inline-stroke:"currentColor"}}
+                                              >
+                                          <ExternalLink>
+                                            <>
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width={16}
+                                                height={16}
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth={2}
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className="lucide lucide-external-link opacity-0 group-hover:opacity-1..."
+-                                               data-darkreader-inline-stroke=""
+-                                               style={{--darkreader-inline-stroke:"currentColor"}}
+                                              >
+                                        <a href="https://ww..." target="_blank" rel="noopener n..." ...>
+                                          <Linkedin>
+                                            <>
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width={20}
+                                                height={20}
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth={2}
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className="lucide lucide-linkedin"
+-                                               data-darkreader-inline-stroke=""
+-                                               style={{--darkreader-inline-stroke:"currentColor"}}
+                                              >
+                                          <ExternalLink>
+                                            <>
+                                              <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width={16}
+                                                height={16}
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth={2}
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className="lucide lucide-external-link opacity-0 group-hover:opacity-1..."
+-                                               data-darkreader-inline-stroke=""
+-                                               style={{--darkreader-inline-stroke:"currentColor"}}
+                                              >
+                                      ...
+                                <Footer>
+                                  <footer className="bg-foregro...">
+                                    <div className="max-w-6xl ...">
+                                      ...
+                                        <ul className="space-y-2 ...">
+                                          <li>
+                                            <a href="mailto:avi..." className="text-prima...">
+                                              <Mail>
+                                                <>
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width={16}
+                                                    height={16}
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
+                                                    stroke="currentColor"
+                                                    strokeWidth={2}
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    className="lucide lucide-mail"
+-                                                   data-darkreader-inline-stroke=""
+-                                                   style={{--darkreader-inline-stroke:"currentColor"}}
+                                                  >
+                                              ...
+                                          <li>
+                                            <a href="https://ww..." target="_blank" rel="noopener n..." ...>
+                                              <Linkedin>
+                                                <>
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width={16}
+                                                    height={16}
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
+                                                    stroke="currentColor"
+                                                    strokeWidth={2}
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    className="lucide lucide-linkedin"
+-                                                   data-darkreader-inline-stroke=""
+-                                                   style={{--darkreader-inline-stroke:"currentColor"}}
+                                                  >
+                                              ...
+                                      <div className="border-t b...">
+                                        <div className="flex flex-...">
+                                          <p>
+                                          <div className="flex gap-4">
+                                            <a href="https://ww..." target="_blank" rel="noopener n..." ...>
+                                              <Linkedin>
+                                                <>
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width={20}
+                                                    height={20}
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
+                                                    stroke="currentColor"
+                                                    strokeWidth={2}
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    className="lucide lucide-linkedin"
+-                                                   data-darkreader-inline-stroke=""
+-                                                   style={{--darkreader-inline-stroke:"currentColor"}}
+                                                  >
+                                            <a href="mailto:avi..." className="text-prima..." aria-label="Email">
+                                              <Mail>
+                                                <>
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width={20}
+                                                    height={20}
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
+                                                    stroke="currentColor"
+                                                    strokeWidth={2}
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    className="lucide lucide-mail"
+-                                                   data-darkreader-inline-stroke=""
+-                                                   style={{--darkreader-inline-stroke:"currentColor"}}
+                                                  >
+                  ...
+
+[00:00:11.021] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:11.021] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:11.021] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1778011742985} /_vercel/insights/view
+[00:00:53.456] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/etica-ia color: rgb(120, 120, 120) color: inherit {"dp":"/etica-ia","o":"http://localhost:3001/etica-ia","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1778011785418} /_vercel/insights/view
